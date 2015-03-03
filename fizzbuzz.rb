@@ -12,16 +12,20 @@
 
 def whatever(number)
   if number % 15 == 0
-    ####
+    puts "fizzbuzz"
   elsif number % 5 == 0
-    ####
+    puts "buzz"
   elsif number % 3 == 0
-    ####
+    puts "fizz"
   else
-    ####
+    puts "#{number}"
   end
 end
 
-fizz(3)
-fizz(5)
-fizz(9)
+(1..100).each do |number|
+	whatever(number)
+	end
+
+#whatever(3)
+#whatever(5)
+#whatever(9)
