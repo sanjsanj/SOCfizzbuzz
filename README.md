@@ -1,6 +1,6 @@
 # SOCfizzbuzz
 
-Our attempt at writing the fizzbuzz game, by @sanjsanj and @ saramoohead.
+Our attempt at writing the fizzbuzz game, by @sanjsanj and @saramoohead.
 
 An exercise to improve our pair-programming skills.
 
