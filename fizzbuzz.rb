@@ -18,7 +18,7 @@ def whatever(number)
   elsif number % 3 == 0
     puts "fizz"
   else
-    puts "#{number}"
+    puts number
   end
 end
 
@@ -34,11 +34,21 @@ fizzbuzzarray = []
 #
 #(1..100).each {|number| whatever(number) }
 
-# method 3, array method
+# method 3, array method, NOT WORKING
 #
-(1..100).map{|number| whatever(number) }
+#(1..100).map{|number| fizzbuzzarray.push(whatever(number)) }
+#
 
-fizzbuzzarray
+# method 4, array method
+#
+(1..100).each do |number|
+  fizzbuzzarray[number - 1] = whatever(number)
+  
+end
+
+print fizzbuzzarray
+puts
+puts fizzbuzzarray.count
 
 #whatever(3)
 #whatever(5)
