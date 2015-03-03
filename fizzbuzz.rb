@@ -22,9 +22,25 @@ def whatever(number)
   end
 end
 
+fizzbuzzarray = []
+
+# method 1
+#
+#(1..100).each do |number|
+#	whatever(number)
+#	end
+
+# method 2
+#
+#(1..100).each {|number| whatever(number) }
+
+# array method
+#
 (1..100).each do |number|
-	whatever(number)
-	end
+  fizzbuzzarray.push(whatever(number))
+end
+
+puts fizzbuzzarray
 
 #whatever(3)
 #whatever(5)
