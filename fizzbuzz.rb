@@ -34,13 +34,11 @@ fizzbuzzarray = []
 #
 #(1..100).each {|number| whatever(number) }
 
-# array method
+# method 3, array method
 #
-(1..100).each do |number|
-  fizzbuzzarray.push(whatever(number))
-end
+(1..100).map{|number| whatever(number) }
 
-puts fizzbuzzarray
+fizzbuzzarray
 
 #whatever(3)
 #whatever(5)
