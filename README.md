@@ -6,4 +6,10 @@ An exercise to improve our pair-programming skills.
 
 ToDo:
 -----
-While we technically wrote the game right, we didn't do it using a test-driven develoment methodology so we plan to go back and redo it right.
+Challenge complete.
+Further research on TDD and rspec.
+
+### h3 Notes:
+".to be_true" no longer accepted, must use:
+".to be_truthy"
+source: https://www.youtube.com/watch?v=CHTep2zQVAc
